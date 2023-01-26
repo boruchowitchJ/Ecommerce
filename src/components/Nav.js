@@ -1,10 +1,10 @@
 
 
-const Navigation = (props) => {
-    const {nav} = props
+const Navigation = () => {
+    
 return(
     <header>
-    <div><img src='./assets/image/logoPause.png'></img></div>
+    <><img src='./assets/image/logoPause.png'></img></>
     <nav>
         <ul>
            <li><a href="#">acceuil</a> </li>

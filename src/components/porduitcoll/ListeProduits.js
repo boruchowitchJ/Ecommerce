@@ -8,14 +8,14 @@ const ListeProduit= (props) => {
     // )
 
     return (
-        <div >
+        <>
             { listeproduit.map(produit => 
                 <CardProduit  nom={produit.nom} prix={produit.prix} desc={produit.desc} photo={produit.photo} />
             ) }
             {/* { cards } */}
 
             {/* <FormateurCard lastname="Beurive" firstname="Aude" birthdate="16/10/1989" avatar="./assets/images/aude.png" gender="female" /> */}
-        </div>
+        </>
     )
     
 }

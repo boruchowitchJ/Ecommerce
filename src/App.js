@@ -15,17 +15,16 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Nav nav={menu} />
+        <Nav/>
         {/* <Nav acceuil="acceuil" carte="carte" contact="contact"/> */}        
       </header>
       <section className='container_Card'>
         <div className='produits_container'><ListeProduit listeproduit={listeproduit}/></div>
-        <div className='image_container'> </div>
+        <div className='image_container'></div>
         </section>
         <section className='container_Card'>
-          <div className='image_container_1'> </div>
+          <div className='image_container_1'></div>
         <div className='produits_container'><ListeProduit listeproduit={listeproduit}/></div>
-
         </section>
       <footer className='footer'>
         <Footer/>

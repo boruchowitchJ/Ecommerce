@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
 
 .App {
   text-align: center;
@@ -16,33 +18,31 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 1vh;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  color: white;
+ 
+min-height: 1vh;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+
   
 }
 .App-header header{
   display: flex;
   flex-direction: row;
   align-items: center;
-  color: white;
+  
   width: 100%;
   justify-content: space-evenly;
   
 }
 .App-header nav  {
-  width: 95%;
-  margin-top: 3%;
-  margin-right: 81px;
+  width: 100%;
+  margin-top: 3%; 
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
-  font-size: 20px;
-  font-family: 'Roboto Flex', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
  
   
 }
@@ -53,19 +53,20 @@ padding: 15px;
 text-transform: uppercase;
 
 
+
 }
 .App-header a:hover {
 color:#daa37f;
 }
 .App-header img{
-  width: 80px;
-  padding: 10px;
-  margin-left: 5px;
+  width: 54px;
+  margin-left: 35px;
 }
 
 .App-header a{
-  color: white;
+  color: #707070;
   text-decoration: none;
+  font-family: 'Oswald', sans-serif;
 }
 
 
@@ -81,7 +82,7 @@ color:#daa37f;
   align-items: center;
 }
 .image_container{
-  background-image: url('../../ecommerce/public/assets/image/tasse.jpg');
+  background-image: url('../public/assets/image/tasse.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -89,7 +90,7 @@ color:#daa37f;
     height: 100%;
 }
 .image_container_1{
-  background-image: url('../../ecommerce/public/assets/image/macaron.jpg');
+  background-image: url('../public/assets/image/macaron.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -98,21 +99,16 @@ color:#daa37f;
 }
 .produits_container{
   width: 50%;
-  display: flex;
-  height: 100%;
-  align-content: space-around;
-  justify-content: space-between;
-  align-items: center;
-}
+display: flex;
+flex-wrap: wrap;
+height: 100%;
+justify-content: space-evenly;}
 
 
 .card{
-  float: left;
-  
-  margin: 28px;
-  width: 269px;
-  
-  transition: all 200ms;
+  margin-top: 37px;
+  width: 22%;
+   margin-left: 28px;
 
 }
 
@@ -120,29 +116,27 @@ color:#daa37f;
   transform: translateY(-10px);
 }
 
-.card__contImg{
-  padding: 2px;
-  width: 100%;
- 
-}
+
 
 .card__img{
-  width: 100%;
+  width: 70%;
 }
 
 .card__contText{
   width: 100%;
   padding: 5px;
+  font-size: 10px;
 }
 
 .card__pTitle{
   color: #707070;
+  font-size: 17px;
 }
-
+.card__title{
+  margin-top: -15px
+}
 .card__price{
-  margin-top: 10px;
-  font-size: 14px;
-  color: #f3722c;
+  color: #daa37f;
 }
 
 .footer {
